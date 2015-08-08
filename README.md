@@ -1,6 +1,5 @@
 # Heroku Redirect
 
 ```
-heroku config:add REDIRECT_URL=http://new_host.com
-heroku config:add REDIRECT_CODE=301
+./replace_app.sh my_heroku_app http://redirect_url.com
 ```
